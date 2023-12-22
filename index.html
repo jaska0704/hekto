@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/css/minified/main.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header bg-[#7E33E0] py-4">
+      <div class="container1 mx-auto text-white flex justify-between">
+        <div class="flex gap-4 justify-start items-center">
+          <span><img src="images/uil_envelope-alt.svg" alt="" /></span>
+          <a href="mhhasanul@gmail.com">mhhasanul@gmail.com</a>
+          <span><img src="images/bx_bx-phone-call.svg" alt="" /></span>
+          <a href="tel:(12345)67890">(12345)67890</a>
+        </div>
+        <div class="flex gap-4 text-white">
+          <select name="lang" id="" class="bg-[#7E33E0]">
+            <option value="eng">English</option>
+            <option value="ru">Russian</option>
+            <option value="uz">Uzbek</option>
+          </select>
+          <select name="payme" id="" class="bg-[#7E33E0]">
+            <option value="usd">Usd</option>
+            <option value="rubl">Rubl</option>
+            <option value="so'm">So'm</option>
+          </select>
+          <div class="flex">
+            <p class="inline">Login</p>
+            <img src="images/carbon_user.svg" alt="" />
+          </div>
+          <div class="flex">
+            <p>Wishlist</p>
+            <img src="images/uil_heart-alt.svg" alt="" />
+          </div>
+          <div>
+            <img src="images/fluent_cart-24-regular.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nav py-6">
+      <div class="container1 mx-auto flex justify-between items-center">
+        <h2 class="text-5xl font-bold ">Hekto</h2>
+        <div class="nav-items">
+          <ul class="flex gap-8">
+            <li class="text-[#FB2E86] flex text-base font-normal font-['Lato']">
+              <a href="#">Home</a>
+              <img src="images/qizil-down.svg" alt="">
+            </li>
+            <li class="hover:text-[#FB2E86] flex text-base font-normal font-['Lato']">
+              <a href="#">Pages</a>
+            </li>
+            <li class="hover:text-[#FB2E86] flex text-base font-normal font-['Lato']">
+              <a href="#">Products</a>
+            </li>
+            <li class="hover:text-[#FB2E86] flex text-base font-normal font-['Lato']">
+              <a href="#">Blog</a>
+            </li>
+            <li class="hover:text-[#FB2E86] flex text-base font-normal font-['Lato']">
+              <a href="#">Shop</a>
+            </li>
+            <li class="hover:text-[#FB2E86] flex text-base font-normal font-['Lato']">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <form action="" class="flex">
+          <input class="border w-64 h-10" type="search" name="search" id="search">
+          <div class="w-10 h-10 bg-[#FB2E86] flex justify-center items-center">
+            <img src="images/Vector.png" alt="">
+          </div>
+        </form>
+      </div>
+    </div>
+    <section class="hero h-[764px] w-full bg-[#F2F0FF] relative">
+      <img class="ml-[-70px] w-[20%] absolute" src="images/bg-divan.png" alt="lampa">
+      <div class="container1 mx-auto flex hero-main">
+        <div class="hero__block1 pt-[203px] w-[640px]">
+          <h4 class="font-['Lato'] text-[#FB2E86] text-base font-bold">Best Furniture For Your Castle....</h4>
+          <h1 class="text-[53px] font-bold">New Furniture Collection Trends in 2020</h1>
+          <p class="text-[#8A8FB9] font-['Lato'] text-base font-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.</p>
+          <button type="button" class="border rounded text-white bg-[#FB2E86] py-3 px-10 mt-5">Shop Now</button>
+        </div>
+        <div class="hero__block2">
+          <img src="images/lampa.png" alt="" class="mt-24 image-divan p-16">
+        </div>
+        <p class="absolute text-4xl ml-[1020px] mt-[120px] z-[999999] font-bold text-white">50% <br> off</p>
+      </div>
+    </section>
+  </body>
+</html>
